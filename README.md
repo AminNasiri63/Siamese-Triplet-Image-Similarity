@@ -71,7 +71,7 @@ Use the provided evaluation functions and cells to compute similarity metrics an
     Based on TensorFlow and Keras for deep learning utilities
     Inspired by Siamese network and triplet loss implementations in research papers
 
----
+
 
 ## 📚 References
 
