@@ -17,6 +17,7 @@ The project uses a ResNet50 backbone and includes data handling, model creation,
 
 Your dataset directory should be organized as follows:
 
+```
 root_dataset_dir/
 │
 ├── ID_1/
@@ -33,7 +34,7 @@ root_dataset_dir/
     ├── image1.jpg
     ├── image2.jpg
     └── ...
-
+```
 
 - Each subfolder corresponds to one unique identity/class (`ID_1`, `ID_2`, …).
 - Each subfolder contains multiple images of that identity.
