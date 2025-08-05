@@ -5,7 +5,7 @@
 This project implements a Siamese neural network trained using **triplet loss** for **image similarity estimation**. The model learns to embed images into a feature space where similar images are close together and dissimilar images are far apart. The model is built in TensorFlow/Keras and leverages distributed training across GPUs for faster convergence.
 The project includes data handling, model creation, training with freezing and fine-tuning, and detailed evaluation metrics.
 
-## Key Features:
+## Key Features
 - ✅ TensorFlow `tf.data` pipeline for efficient data loading.
 - ✅ Distributed training using `tf.distribute.Strategy`.
 - ✅ Modular and scalable training script.
@@ -47,37 +47,39 @@ root_dataset_dir/
 Make sure you have Python 3.7+ and the following packages installed:
 
 ```
-pip install tensorflow seaborn matplotlib pandas scikit-learn
+pip install tensorflow seaborn matplotlib numpy pandas scikit-learn
 ```
 
 ## Usage
-
-    Prepare your dataset
+```
+    **Prepare your dataset**
     Organize your image dataset as described above.
 
-    Configure paths and parameters
-    Edit the pathData variable and other parameters inside the notebook or scripts as needed.
+    **Configure paths and parameters**
+    Edit the pathData variable and other parameters inside the notebook as needed.
 
-    Run training
-    Execute the training notebook or script to train the Siamese network.
+    **Run training**
+    Execute the training notebook to train the Siamese network.
 
-    Evaluate the model
+    **Evaluate the model**
     Use the provided evaluation functions and cells to compute similarity metrics and visualize results.
+```
 
-Project Structure
-
+## Project Structure
+```
     SiameseNetwork.ipynb - Jupyter notebook containing the full pipeline (data loading, training, evaluation)
 
     Loss.xlsx - Saved loss history after training (optional)
 
     Siamese.keras - Saved model checkpoint after training (optional)
-
+```
 ## Acknowledgements
-
+```
     Based on TensorFlow and Keras for deep learning utilities
 
     Inspired by Siamese network and triplet loss implementations in research papers
-
-License
-
+```
+## License
+```
 Specify your license here, e.g., MIT License
+```
