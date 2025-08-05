@@ -49,7 +49,8 @@ Make sure you have Python 3.7+ and the following packages installed:
 ```
 pip install tensorflow seaborn matplotlib pandas scikit-learn
 ```
-Usage
+
+## Usage
 
     Prepare your dataset
     Organize your image dataset as described above.
@@ -65,13 +66,13 @@ Usage
 
 Project Structure
 
-    Siamese.ipynb - Jupyter notebook containing the full pipeline (data loading, training, evaluation)
+    SiameseNetwork.ipynb - Jupyter notebook containing the full pipeline (data loading, training, evaluation)
 
     Loss.xlsx - Saved loss history after training (optional)
 
     Siamese.keras - Saved model checkpoint after training (optional)
 
-Acknowledgements
+## Acknowledgements
 
     Based on TensorFlow and Keras for deep learning utilities
 
