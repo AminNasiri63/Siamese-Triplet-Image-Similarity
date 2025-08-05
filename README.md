@@ -71,6 +71,15 @@ Use the provided evaluation functions and cells to compute similarity metrics an
     Based on TensorFlow and Keras for deep learning utilities
     Inspired by Siamese network and triplet loss implementations in research papers
 
+---
+
+## 📚 References
+
+- [Keras Example: Siamese Network](https://keras.io/examples/vision/siamese_network/)
+- [TensorFlow Guide: Distributed Training with Keras](https://www.tensorflow.org/tutorials/distribute/keras)
+- [TensorFlow Guide: Distributed Training Overview](https://www.tensorflow.org/guide/distributed_training)
+- [Keras Guide: Transfer Learning & Fine-tuning](https://keras.io/guides/transfer_learning/)
+
 ## License
 MIT License
 
