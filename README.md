@@ -51,30 +51,26 @@ pip install tensorflow seaborn matplotlib numpy pandas scikit-learn
 ```
 
 ## Usage
-* **Prepare your dataset**
+* **Prepare your dataset:**
 Organize your image dataset as described above.
 
-* **Configure paths and parameters**
+* **Configure paths and parameters:**
 Edit the pathData variable and other parameters inside the notebook as needed.
 
-* **Run training**
+* **Run training:**
 Execute the training notebook to train the Siamese network.
 
-* **Evaluate the model**
+* **Evaluate the model:**
 Use the provided evaluation functions and cells to compute similarity metrics and visualize results.
 
 ## Project Structure
-```
-    SiameseNetwork.ipynb - Jupyter notebook containing the full pipeline (data loading, training, evaluation)
-```
+* **SiameseNetwork.ipynb:** Jupyter notebook containing the full pipeline (data loading, training, evaluation)
+
 
 ## Acknowledgements
-```
     Based on TensorFlow and Keras for deep learning utilities
-
     Inspired by Siamese network and triplet loss implementations in research papers
-```
+
 ## License
-```
 MIT License
-```
+
