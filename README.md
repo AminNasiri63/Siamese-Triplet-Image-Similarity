@@ -47,7 +47,7 @@ root_dataset_dir/
 Make sure you have Python 3.7+ and the following packages installed:
 
 ```
-pip install tensorflow seaborn matplotlib numpy pandas scikit-learn
+pip install tensorflow seaborn matplotlib numpy pandas
 ```
 
 ## Usage
@@ -66,14 +66,7 @@ Use the provided evaluation functions and cells to compute similarity metrics an
 ## Project Structure
 * **SiameseNetwork.ipynb:** Jupyter notebook containing the full pipeline (data loading, training, evaluation)
 
-
-## Acknowledgements
-    Based on TensorFlow and Keras for deep learning utilities
-    Inspired by Siamese network and triplet loss implementations in research papers
-
-
-
-## 📚 References
+## References
 
 - [Keras Example: Siamese Network](https://keras.io/examples/vision/siamese_network/)
 - [TensorFlow Guide: Distributed Training with Keras](https://www.tensorflow.org/tutorials/distribute/keras)
