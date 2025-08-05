@@ -52,16 +52,16 @@ pip install tensorflow seaborn matplotlib numpy pandas scikit-learn
 
 ## Usage
 ```
-**Prepare your dataset**
+* **Prepare your dataset**
 Organize your image dataset as described above.
 
-**Configure paths and parameters**
+* **Configure paths and parameters**
 Edit the pathData variable and other parameters inside the notebook as needed.
 
-**Run training**
+* **Run training**
 Execute the training notebook to train the Siamese network.
 
-**Evaluate the model**
+* **Evaluate the model**
 Use the provided evaluation functions and cells to compute similarity metrics and visualize results.
 ```
 
