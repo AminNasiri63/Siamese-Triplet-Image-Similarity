@@ -5,6 +5,18 @@ This repository contains code for training and evaluating a Siamese Network usin
 
 The project uses a ResNet50 backbone and includes data handling, model creation, training with freezing and fine-tuning, and detailed evaluation metrics.
 
+# 🧠 Image Similarity Estimation using Siamese Network with Triplet Loss
+
+This project implements a Siamese neural network trained using **triplet loss** for **image similarity estimation**. The model learns to embed images into a feature space where similar images are close together and dissimilar images are far apart.
+
+Key Features:
+- ✅ TensorFlow `tf.data` pipeline for efficient data loading and augmentation
+- ✅ Distributed training using `tf.distribute.Strategy`
+- ✅ Modular and scalable training script
+- ✅ Triplet loss function (anchor, positive, negative)
+- ✅ Easily adaptable for your own image datasets
+
+
 ## Features
 - Distributed training with `tf.distribute.MirroredStrategy`
 - Custom Triplet Margin Loss implementation
