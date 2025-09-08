@@ -6,15 +6,15 @@ This project implements a Siamese neural network trained using **triplet loss** 
 The project includes data handling, model creation, training with freezing and fine-tuning, and detailed evaluation metrics.
 
 ## Key Features
-- ✅ TensorFlow `tf.data` pipeline for efficient data loading.
-- ✅ Distributed training using `tf.distribute.Strategy`.
-- ✅ Modular and scalable training script.
-- ✅ Data pipeline using triplet generators.
-- ✅ Triplet loss function (anchor, positive, negative).
-- ✅ Model fine-tuning with checkpointing.
-- ✅ Evaluation with confusion matrix and per-class metrics.
-- ✅ Visualization of training loss and evaluation results.
-- ✅ Easily adaptable for your own image datasets.
+ ✅ TensorFlow `tf.data` pipeline for efficient data loading.
+ ✅ Distributed training using `tf.distribute.Strategy`.
+ ✅ Modular and scalable training script.
+ ✅ Data pipeline using triplet generators.
+ ✅ Triplet loss function (anchor, positive, negative).
+ ✅ Model fine-tuning with checkpointing.
+ ✅ Evaluation with confusion matrix and per-class metrics.
+ ✅ Visualization of training loss and evaluation results.
+ ✅ Easily adaptable for your own image datasets.
 
 ## Data Structure
 
