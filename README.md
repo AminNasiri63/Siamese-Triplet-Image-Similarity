@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a Siamese neural network trained using **triplet loss** for **image similarity estimation**. The model learns to embed images into a feature space where similar images are close together and dissimilar images are far apart. The model is built in TensorFlow/Keras and leverages distributed training across GPUs for faster convergence.
+This project implements a Siamese neural network trained using **triplet loss** for **image similarity estimation**. The model learns to embed images into a feature space where similar images are close together and dissimilar images are far apart. The model is built in TensorFlow/Keras and leverages distributed training across GPUs for faster convergence.  
 The project includes data handling, model creation, training with freezing and fine-tuning, and detailed evaluation metrics.
 
 ## Key Features
