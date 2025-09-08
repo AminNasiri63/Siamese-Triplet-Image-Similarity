@@ -6,7 +6,7 @@ This project implements a Siamese neural network trained using **triplet loss** 
 The project includes data handling, model creation, training with freezing and fine-tuning, and detailed evaluation metrics.
 
 ## Key Features
- ✅ TensorFlow `tf.data` pipeline for efficient data loading. 
+ ✅ TensorFlow `tf.data` pipeline for efficient data loading.  
  ✅ Distributed training using `tf.distribute.Strategy. 
  ✅ Modular and scalable training script. 
  ✅ Data pipeline using triplet generators. 
