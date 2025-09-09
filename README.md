@@ -7,7 +7,7 @@ The project includes data handling, model creation, training with freezing and f
 
 ## Key Features
  ✅ TensorFlow `tf.data` pipeline for efficient data loading.  
- ✅ Distributed training using `tf.distribute.Strategy.  
+ ✅ Distributed training using `tf.distribute.Strategy`.  
  ✅ Modular and scalable training script.  
  ✅ Data pipeline using triplet generators.  
  ✅ Triplet loss function (anchor, positive, negative).  
