@@ -11,8 +11,9 @@ The project includes data handling, model creation, training with freezing and f
  ✅ Modular and scalable training script.  
  ✅ Data pipeline using triplet generators.  
  ✅ Triplet loss function (anchor, positive, negative).  
- ✅ Model fine-tuning with checkpointing.  
- ✅ Evaluation with confusion matrix and per-class metrics.  
+ ✅ Progressive training (frozen backbone → fine-tuning).  
+ ✅ Using transfer learning with ResNet50 for embeddings.  
+ ✅ Comprehensive evaluation with confusion matrices and per-class metrics.  
  ✅ Visualization of training loss and evaluation results.  
  ✅ Easily adaptable for your own image datasets.  
 
